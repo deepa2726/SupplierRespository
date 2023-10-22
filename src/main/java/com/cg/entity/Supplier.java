@@ -1,9 +1,11 @@
 package com.cg.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Supplier {
+	@Id
 	private String name;
 	private int id;
 	private String location;
@@ -46,7 +48,4 @@ public class Supplier {
 		return "Supplier [name=" + name + ", id=" + id + ", location=" + location + "]";
 	}
 	
-	
-	
-
 }
