@@ -5,9 +5,10 @@ import javax.persistence.Id;
 
 @Entity
 public class Supplier {
+	
 	@Id
-	private String name;
 	private int id;
+	private String name;
 	private String location;
 	
 	Supplier(){}
