@@ -1,0 +1,5 @@
+com\cg\Application.class
+com\cg\dao\SupplierDao.class
+com\cg\entity\Supplier.class
+com\cg\controller\SupplierController.class
+com\cg\service\SupplierService.class
